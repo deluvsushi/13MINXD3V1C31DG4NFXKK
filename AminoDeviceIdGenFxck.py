@@ -10,6 +10,7 @@ print(pyfiglet.figlet_format("aminodeviceidgenfxck", font="smslant", width=58))
 r = 0    
 email = input("Email >> ")
 password = input("Password >> ")
+threads_count = int(input("Threads Count | Min - 5 / Max - 500 >> "))
 
 # device_Id generator
 def device_Id_generator():
@@ -24,6 +25,6 @@ def device_Id_generator():
 	except:
 		return
 
-for r in range(25):
+for r in range(threads_count):
 	while True:
 		Thread(target=device_Id_generator).start()
