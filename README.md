@@ -23,8 +23,9 @@ DeviceId Generator For AminoApps
 - apt update -y
 - apt upgrade -y
 - pkg install python
-- pip install -r requirements.txt
 - git clone https://github.com/LilZevi/AminoDeviceIdGenFxck
+- cd AminoDeviceIdGenFxck
+- pip install -r requirements.txt
 - !Для запуска/For starting!
 - cd AminoDeviceIdGenFxck
 - python AminoDeviceIdGenFxck.py
