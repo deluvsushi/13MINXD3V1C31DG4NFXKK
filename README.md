@@ -1,6 +1,9 @@
 # AminoDeviceIdGenFxck
 DeviceId Generator For AminoApps
 
+# Proof that deviceids is valid/Пруф что девайсайди валидные
+![proof](https://github.com/LilZevi/AminoDeviceIdGenFxck/blob/main/config/Screenshot_2021-10-08-17-46-09-64_948cd9899890cbd5c2798760b2b95377.jpg)
+
 # Using/Использование
 
 ### `Eng:`
