@@ -3,7 +3,7 @@ DeviceId Generator For AminoApps
 
 # Using/Использование
 
-### `Eng:
+### `Eng:`
 - Necessarily before using this script turn on vpn this is for generating deviceids if you don't turn on vpn the generator don't work!
 
 ### `Rus:`
