@@ -4,8 +4,8 @@ from threading import Thread
 from colored import fore, back, style, attr
 attr(0)
 print(fore.DEEP_SKY_BLUE_1 + style.BOLD)
-print("""Script by Lil Zevi
-Github : https://github.com/LilZevi""")
+print("""Script by deluvsushi
+Github : https://github.com/deluvsushi""")
 print(pyfiglet.figlet_format("aminodeviceidgenfxck", font="smslant", width=58))
 r = 0    
 email = input("Email >> ")
