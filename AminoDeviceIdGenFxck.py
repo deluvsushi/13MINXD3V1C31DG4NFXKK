@@ -18,7 +18,7 @@ def device_Id_generator():
 	r = r + 1
 	try:
 		authorization = AminoLab.auth(email=email, password=password)
-		device_Id = authorization["result"]["url"].split("=")[4]
+		device_Id = authorization["result"]["url"].split("=")[4].upper()
 		print(f"device_Id: {device_Id}")
 		device_Ids = open("deviceids.txt", "a+")
 		device_Ids.write(f"{device_Id}\n")
