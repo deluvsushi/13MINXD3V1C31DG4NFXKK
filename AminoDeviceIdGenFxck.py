@@ -1,6 +1,6 @@
 import pyfiglet
-from config import device_Id_generator_func as AminoLab
 from threading import Thread
+from config import device_Id_generator_func as AminoLab
 from colored import fore, back, style, attr
 attr(0)
 print(fore.DEEP_SKY_BLUE_1 + style.BOLD)
@@ -18,10 +18,10 @@ def device_Id_generator():
 	r = r + 1
 	try:
 		authorization = AminoLab.auth(email=email, password=password)
-		device_Id = authorization["result"]["url"].split("=")[4].upper()
-		print(f"device_Id: {device_Id}")
-		device_Ids = open("deviceids.txt", "a+")
-		device_Ids.write(f"{device_Id}\n")
+		DEVICE_ID = authorization["result"]["url"].split("=")[4].upper()
+		print(f"DEVICE_ID: {DEVICE_ID}")
+		DEVICE_IDS = open("deviceids.txt", "a+")
+		DEVICE_IDS.write(f"{DEVICE_ID}\n")
 	except:
 		return
 
