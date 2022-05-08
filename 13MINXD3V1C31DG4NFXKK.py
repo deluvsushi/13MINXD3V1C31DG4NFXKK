@@ -6,7 +6,7 @@ attr(0)
 print(fore.DEEP_SKY_BLUE_1 + style.BOLD)
 print("""Script by deluvsushi
 Github : https://github.com/deluvsushi""")
-print(pyfiglet.figlet_format("aminodeviceidgenfxck", font="smslant", width=58))
+print(pyfiglet.figlet_format("13MINXD3V1C31DG4NFXKK", font="smslant", width=58))
 r = 0    
 email = input("Email >> ")
 password = input("Password >> ")
